@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
+
+
 
 html, 
 body{
@@ -156,6 +159,7 @@ header nav a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 550px 150px 150px;
   gap: .7em;
+  overflow: hidden;
 }
 
 .first-grid-item {
@@ -164,6 +168,7 @@ header nav a:hover {
 
 .first-grid-item,
 .grid-item {
+  overflow: hidden;
   position: relative;
   cursor: pointer;
   transition: 
@@ -202,6 +207,7 @@ header nav a:hover {
 .grid-item:hover {
   transform: scale(1.04);
   opacity: .5;
+  overflow: hidden;
 }
 
 /* Contact section */
